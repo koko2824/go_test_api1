@@ -1,0 +1,1 @@
+web: bin/go_test_api1
