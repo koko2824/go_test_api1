@@ -16,7 +16,7 @@ func router() *gin.Engine {
 
 	// GET
 	r.GET("/users", ctrl.GetAll)
-	r.GET("/users/:id", ctrl.GetOne)
+	r.GET("/user/:id", ctrl.GetOne)
 
 	// POST
 	r.POST("/user", ctrl.Insert)
